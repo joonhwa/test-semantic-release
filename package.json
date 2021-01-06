@@ -1,7 +1,7 @@
 {
   "name": "docker-neofacev-fi-api",
   "scripts": {
-    "release": "semantic-release --no-ci --dry-run --branches nfv4.0"
+    "release": "semantic-release --no-ci --dry-run"
   },
   "release": {
     "plugins": [
