@@ -1,0 +1,14 @@
+{
+  "name": "docker-neofacev-fi-api",
+  "scripts": {
+    "release": "semantic-release --no-ci --dry-run --branches nfv4.0"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer"
+    ]
+  },
+  "dependencies": {
+    "semantic-release": "^17.3.1"
+  }
+}
